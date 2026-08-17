@@ -4,10 +4,29 @@ A desktop-based **Employee Management System** built using **Java (Swing GUI)** 
 
 ---
 
+## 📸 User Interface Showcase
+
+| Login Screen | System Dashboard |
+| :---: | :---: |
+| ![Login Screen](images/Loginframe.png) | ![System Menu](images/SystemMenu.png) |
+| *Secure Login with Remember Me & Password Visibility* | *Main Menu Navigation Dashboard* |
+
+| Add Employee | Search Employee |
+| :---: | :---: |
+| ![Add Employee](images/AddEmployeeFrame.png) | ![Search Employee](images/SearchemployeeFrame.png) |
+| *Add Permanent or Part-Time Employee with Validation* | *Search Employee by ID with Formatted Output* |
+
+| Update Employee | View All Employees |
+| :---: | :---: |
+| ![Update Employee](images/UpdateEmployeeframe.png) | ![View All Employees](images/AllEmployeeFrame.png) |
+| *Load and Edit Existing Employee Records* | *Interactive JTable Displaying All Records* |
+
+---
+
 ## 🌟 Key Features
 
 * **🔐 Authentication System**:
-  * Secure Admin Login (Default: `username: admin`, `password: 1234`).
+  * Secure Admin Login (Default Username: `admin`, Default Password: `1234`).
   * *Remember Me* feature saved using Java Preferences API.
   * Show/Hide password toggle & field placeholders.
 * **➕ Add Employee**:
@@ -15,13 +34,29 @@ A desktop-based **Employee Management System** built using **Java (Swing GUI)** 
   * Strict validation for duplicate ID, negative values, and valid names (letters only).
 * **🔍 Search Employee**:
   * Search employee details by unique ID.
-  * Displays formatted formatted text output.
+  * Displays formatted monospaced text output.
 * **✏️ Update Employee**:
   * Dynamically load and modify existing employee records (Name, Gender, Type, Salary/Hours/Rate/Bonus).
 * **📋 View All Employees**:
   * Non-editable `JTable` rendering all active employees and calculated total salaries.
 * **🗑️ Delete Employee**:
   * Remove employee records with user confirmation.
+
+---
+
+## 🔑 Changing Default Credentials
+
+By default, the system uses the following login credentials:
+* **Username**: `admin`
+* **Password**: `1234`
+
+To change the default username or password, edit the constants in [`src/GUI/LoginFrame.java`](src/GUI/LoginFrame.java):
+
+```java
+// Credentials inside LoginFrame.java
+private final String CORRECT_USERNAME = "admin";  // Change your username here
+private final String CORRECT_PASSWORD = "1234";   // Change your password here
+```
 
 ---
 
@@ -38,6 +73,14 @@ A desktop-based **Employee Management System** built using **Java (Swing GUI)** 
 
 ```
 EmployeeManagement/
+├── images/                         # GUI Screenshots & Interface Showcase
+│   ├── Loginframe.png
+│   ├── SystemMenu.png
+│   ├── AddEmployeeFrame.png
+│   ├── SearchemployeeFrame.png
+│   ├── UpdateEmployeeframe.png
+│   └── AllEmployeeFrame.png
+│
 ├── src/
 │   ├── Folder/                     # Business Logic & Backend
 │   │   ├── Payable.java            # Interface
