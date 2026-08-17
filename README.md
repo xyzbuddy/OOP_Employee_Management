@@ -212,3 +212,19 @@ EmployeeManagement/
 
 ## 📄 Documentation & Lab Report
 This repository includes a full project report PDF ([`Project_Report.pdf`](Project_Report.pdf)). Students and developers can refer to the report for complete system flowcharts, class diagrams, and lab assignment submission guidelines.
+
+---
+
+## 🤝 Contributing & Community Support
+
+Contributions, bug reports, and feature requests are welcome! 
+
+1. Check out our [**CONTRIBUTING.md**](CONTRIBUTING.md) guide to learn how to fork, test, and submit Pull Requests.
+2. Read our [**CODE_OF_CONDUCT.md**](CODE_OF_CONDUCT.md) for community standards.
+3. Feel free to open a [**GitHub Issue**](https://github.com/xyzbuddy/OOP_Employee_Management/issues) if you spot bugs or have feature proposals.
+
+---
+
+## 📜 License
+
+This project is open-source software licensed under the [**MIT License**](LICENSE). Feel free to use, modify, and distribute it.
