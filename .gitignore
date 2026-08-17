@@ -1,0 +1,10 @@
+# Compiled Java Output
+bin/
+*.class
+
+# Log files
+*.log
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
