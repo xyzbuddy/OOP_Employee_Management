@@ -70,15 +70,41 @@ EmployeeManagement/
 * **Java Development Kit (JDK 8 or higher)**
 * **Eclipse IDE / VS Code / IntelliJ IDEA**
 
-### Running the Application
-1. Clone this repository:
+### 💻 How to Run the Application
+
+1. **Clone this repository**:
    ```bash
    git clone https://github.com/xyzbuddy/OOP_Employee_Management.git
    ```
-2. Import the project into **Eclipse IDE**:
-   * `File` ➔ `Import...` ➔ `Existing Projects into Workspace`
-   * Select project directory and click `Finish`.
-3. Run `src/Folder/Main.java` as a **Java Application**.
+
+#### 🔹 Option 1: Eclipse IDE
+1. Open Eclipse and select `File` ➔ `Import...`.
+2. Choose `General` ➔ `Existing Projects into Workspace` ➔ Click `Next`.
+3. Select the `Employee_Management` directory and click `Finish`.
+4. In Package Explorer, open `src/Folder/Main.java` ➔ Right-click ➔ `Run As` ➔ `Java Application`.
+
+#### 🔹 Option 2: IntelliJ IDEA
+1. Open IntelliJ IDEA and select `File` ➔ `Open...`.
+2. Select the `Employee_Management` folder and click `OK`.
+3. If prompted, set JDK version (Java 8 or higher).
+4. Navigate to `src/Folder/Main.java` ➔ Click the green ▶️ **Run** button.
+
+#### 🔹 Option 3: Visual Studio Code (VS Code)
+1. Open VS Code and click `File` ➔ `Open Folder...`.
+2. Select the `Employee_Management` folder.
+3. Ensure the **Extension Pack for Java** is installed.
+4. Open `src/Folder/Main.java` and click **Run** above `public static void main`.
+
+#### 🔹 Option 4: Command Line / Terminal (CLI)
+1. Open your terminal in the project root directory.
+2. Compile the source code:
+   ```bash
+   javac -d bin src/Folder/*.java src/GUI/*.java
+   ```
+3. Run the application:
+   ```bash
+   java -cp bin Folder.Main
+   ```
 
 ---
 
