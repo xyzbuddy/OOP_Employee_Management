@@ -73,7 +73,7 @@ EmployeeManagement/
 ### Running the Application
 1. Clone this repository:
    ```bash
-   git clone <YOUR-REPOSITORY-URL>
+   git clone https://github.com/xyzbuddy/OOP_Employee_Management.git
    ```
 2. Import the project into **Eclipse IDE**:
    * `File` ➔ `Import...` ➔ `Existing Projects into Workspace`
@@ -83,4 +83,4 @@ EmployeeManagement/
 ---
 
 ## 📄 Documentation & Lab Submission
-This repository includes a full project report PDF (e.g. `Project_Report.pdf`). Students/Developers can refer to the report for complete system architecture, flowcharts, and lab submission guidelines.
+This repository includes a full project report PDF ([`Project_Report.pdf`](Project_Report.pdf)). Students/Developers can refer to the report for complete system architecture, flowcharts, and lab submission guidelines.
